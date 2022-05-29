@@ -1,6 +1,6 @@
 clc
 clear %1,2,3,5,6,7,8,10
-for i = 3:5
+for i = 1:20
     main('-algorithm',@CommunitySparseEA,'-problem',@NREG1,'-evaluation',2e5,'-run',i)
     main('-algorithm',@CommunitySparseEA,'-problem',@NREG2,'-evaluation',2e5,'-run',i)
     main('-algorithm',@CommunitySparseEA,'-problem',@NREG3,'-evaluation',2e5,'-run',i)
