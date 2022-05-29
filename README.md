@@ -1,13 +1,13 @@
 # EMTNRCD
 
-We provided a matlab implementation for EMTNRCD based on PlatEMO. In this code, NSGAII and SparseEA is considered a basic multitasking optimizer.
+We provided a matlab implementation for EMTNRCD based on PlatEMO. In this code, NSGAII and SparseEA is considered a basic multiobjective optimizer.
 
 ## Getting started
 
 - Clone this repo:
 
 ```
-git clone https://github.com/xiaofangxd/EMTAUC.git
+[git clone https://github.com/xiaofangxd/EMTAUC.git](https://github.com/xiaofangxd/EMTNRCD.git)
 
 ```
 
@@ -26,7 +26,24 @@ We provide two test suites, 'EG' and 'RN', for example.
 If you use this code for your research, please cite our paper.
 
 ```
-Chao Wang, Kai Wu*, Jing Liu, Evolutionary Multitasking AUC optimization, IEEE Computational Intelligence Magazine, accept, 2021.
+@misc{https://doi.org/10.48550/arxiv.2201.01134,
+  doi = {10.48550/ARXIV.2201.01134},
+  
+  url = {https://arxiv.org/abs/2201.01134},
+  
+  author = {Wu, Kai and Wang, Chao and Chen, Junyuan and Liu, Jing},
+  
+  keywords = {Social and Information Networks (cs.SI), Neural and Evolutionary Computing (cs.NE), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {What Knowledge can be Transferred Between Network Reconstruction and Community Detection?},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
 ```
 
 ## Contact
