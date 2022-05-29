@@ -1,20 +1,6 @@
 function CommunityNSGAII(Global)
 % <algorithm> <W> 
-% Weighted optimization framework enhanced SMPSO
-% groups   --- 1    --- Grouping method, 1 = linear, 2 = ordered, 3 = random 
-% psi      --- 3    --- Transformation function, 1 = Multiplication, 2 = P-Value, 3 = Interval
-% t1       --- 1000 --- Number of evaluations for original problem
-% t2       --- 500  --- Number of evaluations for transformed problem
-% q        ---      --- The number of chosen solutions to do weight optimisation. If no value is specified, the default value is M+1
-% delta    --- 0.5  --- The fraction of function evaluations to use for the alternating weight-optimisation phase
-
-%------------------------------- Reference --------------------------------
-% H. Zille, H. Ishibuchi, S. Mostaghim, and Y. Nojima, A framework for
-% large-scale multiobjective optimization based on problem transformation,
-% IEEE Transactions on Evolutionary Computation, 2018, 22(2): 260-275.
 %------------------------------- Copyright --------------------------------
-%  WOFSMPSO.m 
-%  Copyright (C) 2018 Heiner Zille
 % 
 %  This program is free software: you can redistribute it and/or modify
 %  it under the terms of the GNU General Public License as published by
@@ -29,18 +15,7 @@ function CommunityNSGAII(Global)
 %  You should have received a copy of the GNU General Public License
 %  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 %
-%  Author of this Code: 
-%   Heiner Zille <heiner.zille@ovgu.de> 
-%
-%  This file belongs to the following publications:
-% 
-%  2) Heiner Zille, Hisao Ishibuchi, Sanaz Mostaghim and Yusuke Nojima
-%     "A Framework for Large-scale Multi-objective Optimization based on Problem Transformation"
-%     IEEE Transactions on Evolutionary Computation, Vol. 22, Issue 2, pp. 260-275, April 2018.
-%     http://ieeexplore.ieee.org/document/7929324
-%
-%  Date of publication: 12.10.2018 
-%  Last Update: 12.10.2018
+%  Last Update: 29.5.2022
 %--------------------------------------------------------------------------
 
     %% Set the default parameters
