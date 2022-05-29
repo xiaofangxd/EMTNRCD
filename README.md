@@ -7,7 +7,7 @@ We provided a matlab implementation for EMTNRCD based on PlatEMO[[PlatEMO](https
 - Clone this repo:
 
 ```
-git clone https://github.com/xiaofangxd/EMTAUC.git
+git clone https://github.com/xiaofangxd/EMTNRCD.git
 
 ```
 
